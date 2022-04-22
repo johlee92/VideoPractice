@@ -11,6 +11,7 @@
 		CB8157DE2813433E00BCC2CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8157DD2813433E00BCC2CB /* ContentView.swift */; };
 		CB8157E02813434300BCC2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8157DF2813434300BCC2CB /* Assets.xcassets */; };
 		CB8157E32813434300BCC2CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8157E22813434300BCC2CB /* Preview Assets.xcassets */; };
+		CB8157EC2813438E00BCC2CB /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8157EB2813438E00BCC2CB /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		CB8157DD2813433E00BCC2CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB8157DF2813434300BCC2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB8157E22813434300BCC2CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB8157E92813437900BCC2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CB8157EB2813438E00BCC2CB /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8157EC2813438E00BCC2CB /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +41,7 @@
 			children = (
 				CB8157DA2813433E00BCC2CB /* VideoPractice */,
 				CB8157D92813433E00BCC2CB /* Products */,
+				CB8157EA2813438E00BCC2CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +56,7 @@
 		CB8157DA2813433E00BCC2CB /* VideoPractice */ = {
 			isa = PBXGroup;
 			children = (
+				CB8157E92813437900BCC2CB /* Info.plist */,
 				CB8157DB2813433E00BCC2CB /* VideoPracticeApp.swift */,
 				CB8157DD2813433E00BCC2CB /* ContentView.swift */,
 				CB8157DF2813434300BCC2CB /* Assets.xcassets */,
@@ -65,6 +71,14 @@
 				CB8157E22813434300BCC2CB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB8157EA2813438E00BCC2CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB8157EB2813438E00BCC2CB /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = JRCGD3J9C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = JRCGD3J9C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
